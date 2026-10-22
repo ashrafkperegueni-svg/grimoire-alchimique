@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <symbol id="digit-0" viewBox="0 0 64 64">
+    <path d="M32 7 50 17v30L32 57 14 47V17z" fill="none" stroke="currentColor" stroke-width="2"/>
+    <text x="32" y="44" text-anchor="middle" fill="currentColor" font-family="Georgia,serif" font-size="38">0</text>
+  </symbol>
+  <symbol id="digit-1" viewBox="0 0 64 64">
+    <path d="M32 7 50 17v30L32 57 14 47V17z" fill="none" stroke="currentColor" stroke-width="2"/>
+    <text x="32" y="44" text-anchor="middle" fill="currentColor" font-family="Georgia,serif" font-size="38">1</text>
+  </symbol>
+  <symbol id="digit-2" viewBox="0 0 64 64">
+    <path d="M32 7 50 17v30L32 57 14 47V17z" fill="none" stroke="currentColor" stroke-width="2"/>
+    <text x="32" y="44" text-anchor="middle" fill="currentColor" font-family="Georgia,serif" font-size="38">2</text>
+  </symbol>
+  <symbol id="digit-3" viewBox="0 0 64 64">
+    <path d="M32 7 50 17v30L32 57 14 47V17z" fill="none" stroke="currentColor" stroke-width="2"/>
+    <text x="32" y="44" text-anchor="middle" fill="currentColor" font-family="Georgia,serif" font-size="38">3</text>
+  </symbol>
+  <symbol id="digit-4" viewBox="0 0 64 64">
+    <path d="M32 7 50 17v30L32 57 14 47V17z" fill="none" stroke="currentColor" stroke-width="2"/>
+    <text x="32" y="44" text-anchor="middle" fill="currentColor" font-family="Georgia,serif" font-size="38">4</text>
+  </symbol>
+  <symbol id="digit-5" viewBox="0 0 64 64">
+    <path d="M32 7 50 17v30L32 57 14 47V17z" fill="none" stroke="currentColor" stroke-width="2"/>
+    <text x="32" y="44" text-anchor="middle" fill="currentColor" font-family="Georgia,serif" font-size="38">5</text>
+  </symbol>
+  <symbol id="digit-6" viewBox="0 0 64 64">
+    <path d="M32 7 50 17v30L32 57 14 47V17z" fill="none" stroke="currentColor" stroke-width="2"/>
+    <text x="32" y="44" text-anchor="middle" fill="currentColor" font-family="Georgia,serif" font-size="38">6</text>
+  </symbol>
+  <symbol id="digit-7" viewBox="0 0 64 64">
+    <path d="M32 7 50 17v30L32 57 14 47V17z" fill="none" stroke="currentColor" stroke-width="2"/>
+    <text x="32" y="44" text-anchor="middle" fill="currentColor" font-family="Georgia,serif" font-size="38">7</text>
+  </symbol>
+  <symbol id="digit-8" viewBox="0 0 64 64">
+    <path d="M32 7 50 17v30L32 57 14 47V17z" fill="none" stroke="currentColor" stroke-width="2"/>
+    <text x="32" y="44" text-anchor="middle" fill="currentColor" font-family="Georgia,serif" font-size="38">8</text>
+  </symbol>
+  <symbol id="digit-9" viewBox="0 0 64 64">
+    <path d="M32 7 50 17v30L32 57 14 47V17z" fill="none" stroke="currentColor" stroke-width="2"/>
+    <text x="32" y="44" text-anchor="middle" fill="currentColor" font-family="Georgia,serif" font-size="38">9</text>
+  </symbol>
+  <symbol id="decimal" viewBox="0 0 64 64">
+    <path d="M12 32h40M32 12v40" fill="none" stroke="currentColor" stroke-width="2" opacity=".45"/>
+    <circle cx="32" cy="32" r="6" fill="currentColor"/>
+  </symbol>
+  <symbol id="negative" viewBox="0 0 64 64">
+    <path d="M12 32h40M18 25h28M18 39h28" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="exponent" viewBox="0 0 64 64">
+    <path d="M13 32h22m-18-8 14 16m0-16L17 40M40 20h12M46 14v12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="add" viewBox="0 0 64 64">
+    <path d="M32 12v40M12 32h40" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="32" cy="32" r="25" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  </symbol>
+  <symbol id="subtract" viewBox="0 0 64 64">
+    <path d="M13 32h38" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="32" cy="32" r="25" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  </symbol>
+  <symbol id="multiply" viewBox="0 0 64 64">
+    <path d="m18 18 28 28m0-28L18 46" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="32" cy="32" r="25" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  </symbol>
+  <symbol id="divide" viewBox="0 0 64 64">
+    <path d="M13 32h38" fill="none" stroke="currentColor" stroke-width="3"/>
+    <circle cx="32" cy="19" r="3" fill="currentColor"/>
+    <circle cx="32" cy="45" r="3" fill="currentColor"/>
+    <circle cx="32" cy="32" r="25" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  </symbol>
+  <symbol id="equals" viewBox="0 0 64 64">
+    <path d="M15 25h34M15 39h34" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="32" cy="32" r="25" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  </symbol>
+  <symbol id="seal" viewBox="0 0 64 64">
+    <path d="M32 3 38 9l9-1 3 9 8 5-3 9 3 9-8 5-3 9-9-1-6 6-6-6-9 1-3-9-8-5 3-9-3-9 8-5 3-9 9 1z" fill="#8d281d" stroke="#c7a25c" stroke-width="2"/>
+    <circle cx="32" cy="32" r="18" fill="none" stroke="#e2c77c" stroke-width="1.5"/>
+    <path d="M32 17v30M17 32h30M21.5 21.5l21 21m0-21-21 21" fill="none" stroke="#e2c77c" stroke-width="1.5"/>
+    <circle cx="32" cy="32" r="4" fill="#e2c77c"/>
+  </symbol>
+</svg>
