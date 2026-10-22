@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0807">
+  <meta name="description" content="Un calculateur alchimique interactif, relié à ses runes et à ses sons d’ambiance.">
+  <title>Grimoire Alchimique</title>
+  
+  <!-- Ajout des polices médiévales pour le CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=MedievalSharp&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="scene">
+    <button class="controle-livre" id="commande-livre" type="button" aria-expanded="false" aria-controls="livre">
+      Ouvrir le grimoire
+    </button>
+    
+    <div class="livre" id="livre">
+      
+      <div class="couverture couverture-frontale" aria-hidden="true">
+        <span class="ornement-couverture" aria-hidden="true"></span>
+        <span class="titre-couverture">Grimoire</span>
+        <span class="sous-titre-couverture">Alchimique</span>
+        <svg class="sceau-couverture" viewBox="0 0 64 64" aria-hidden="true"><use href="ressources/runes/sprite.svg#seal"></use></svg>
+      </div>
+      
+      <!-- PAGE DE GAUCHE : L'affichage des calculs -->
+      <div class="page page-gauche" aria-hidden="true" inert>
+        <div class="zone-affichage">
+          <div class="historique" id="historique" aria-live="polite"></div>
+          <div class="formule" id="formule" role="img" aria-label="Formule vide"></div>
+        </div>
+        <div class="annotations" id="annotations" aria-live="polite"></div>
+      </div>
+      
+      <!-- PAGE DE DROITE : Le clavier et les décorations -->
+      <div class="page page-droite" aria-hidden="true" inert>
+        <div class="inscription-accueil">Transmutatio</div>
+        
+        <div class="clavier" id="clavier">
+          <button class="touche" data-action="clear" aria-label="Tout effacer">AC</button>
+          <button class="touche" data-action="back" aria-label="Effacer le dernier chiffre">⌫</button>
+          <button class="touche" data-action="percent" aria-label="Pourcentage">%</button>
+          <button class="touche operation operation-division" data-op="/" aria-label="Diviser">÷</button>
+          
+          <button class="touche" data-num="7">7</button>
+          <button class="touche" data-num="8">8</button>
+          <button class="touche" data-num="9">9</button>
+          <button class="touche operation" data-op="*" aria-label="Multiplier">×</button>
+          
+          <button class="touche" data-num="4">4</button>
+          <button class="touche" data-num="5">5</button>
+          <button class="touche" data-num="6">6</button>
+          <button class="touche operation" data-op="-" aria-label="Soustraire">−</button>
+          
+          <button class="touche" data-num="1">1</button>
+          <button class="touche" data-num="2">2</button>
+          <button class="touche" data-num="3">3</button>
+          <button class="touche operation" data-op="+" aria-label="Ajouter">+</button>
+          
+          <button class="touche" data-action="sign" aria-label="Changer le signe">±</button>
+          <button class="touche" data-num="0">0</button>
+          <button class="touche" data-num="." aria-label="Virgule décimale">.</button>
+          <button class="touche egal" data-action="equals" aria-label="Calculer le résultat">=</button>
+        </div>
+        
+        <!-- Le sceau de cire -->
+        <div class="sceau">
+          <svg viewBox="0 0 64 64" role="img" aria-label="Sceau alchimique"><use href="ressources/runes/sprite.svg#seal"></use></svg>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Ajout des balises audio pour le JavaScript -->
+  <audio id="son-cuir" src="sons/bruit-cuir.mp3" preload="auto"></audio>
+  <audio id="son-page" src="sons/bruit-page.mp3" preload="auto"></audio>
+  <audio id="son-encre" src="sons/bruit-encre.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
